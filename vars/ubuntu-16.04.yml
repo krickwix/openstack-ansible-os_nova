@@ -70,7 +70,8 @@ nova_compute_kvm_distro_packages:
   - qemu-block-extra
   - qemu-utils
   - qemu-user
-
+  - dmidecode
+  
 nova_compute_lxd_distro_packages:
   - bridge-utils
   - dosfstools
